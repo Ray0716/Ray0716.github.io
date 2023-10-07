@@ -1,0 +1,113 @@
+:root {
+  --lightRed: #bd5656;
+  --lightGrey: #252a2f;
+  --darkGrey: #0f1113;
+  --darkerGrey: rgb(8, 8, 8);
+}
+
+body {
+  background-color: var(--darkGrey);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  letter-spacing: 0rem;
+  margin: 0;
+  border: 0%;
+  padding: 0%;
+}
+
+.nav {
+  background-color: var(--darkerGrey);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-size: 0.97em;
+  padding-right: 1.2vw;
+}
+
+.nav ul {
+  margin: 0;
+  color: white;
+  list-style: none;
+  display: flex;
+  gap: 0.1rem;
+  padding: 1.40em 0;
+
+}
+
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  padding-right: 2.8vw; /* gap between menu stuff */
+  position: relative;
+  display: inline-block;
+  transition: all ease-in-out 250ms;
+}
+
+
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.25em;
+  width: 0;
+  background-color: var(--lightRed);
+  transition: all ease-in-out 250ms;
+}
+
+.nav a:hover::after {
+  width: 80%;
+}
+
+.nav a:hover {
+  color: var(--lightRed);
+}
+
+.site-title {
+  margin-left: 4.5vw;
+}
+
+
+/* li a::after { /* red block thing 
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: var(--lightRed);
+  bottom: -1em;
+  transition: all ease-in-out 250ms;
+}
+
+li a:hover::after{
+  width: 75%;
+}
+
+li a:hover{
+  color:var(--lightRed);
+
+}
+
+li:first-child{
+  margin-right: auto;
+  margin-left: 3em;
+} 
+*/
+
+h1 {
+  color: rgb(170, 199, 231);
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+p {
+  color: rgb(165, 72, 72);
+}
