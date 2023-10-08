@@ -25,28 +25,27 @@ function Navbar() {
     )
 } */
 
-
-
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return(
         <nav className = "nav">
-            <a href = "/" className = "site-title">RAY TANG</a>
+            <NavLink to="/" className = "site-title">RAY TANG</NavLink>
             <ul>
                 <li>
-                <a href = "/">Home</a>
+                <NavLink to="/">Home</NavLink>
                 </li>
                 <li>
-                <a href = "/experience">Experience</a>
+                <NavLink to="/experience">Experience</NavLink>
                 </li>
                 <li>
-                <a href = "/projects">Projects</a>
+                <NavLink to="/projects">Projects</NavLink>
                 </li>
                 <li>
-                <a href = "/piano">Piano</a>
+                <NavLink to="/piano">Piano</NavLink>
                 </li>
                 <li>
-                <a href = "/contact">Contact</a>
+                <NavLink to="/contact">Contact</NavLink>
                 </li>
             </ul>
         </nav>

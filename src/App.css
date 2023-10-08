@@ -57,23 +57,38 @@ body {
   content: "";
   position: absolute;
   display: block;
-  height: 0.25em;
+  height: 0.17em;
   width: 0;
-  background-color: var(--lightRed);
+  background-color: var(--white);
   transition: all ease-in-out 250ms;
 }
 
-.nav a:hover::after {
+/*
+.nav a:hover::after { 
   width: 80%;
-}
+  color: var(--lightRed);
+} */
 
-.nav a:hover {
+.nav a:hover { 
   color: var(--lightRed);
 }
 
-.site-title {
-  margin-left: 4.5vw;
+.nav a.active::after{
+  background-color: white;
+  width: 80%
 }
+
+
+
+.site-title {
+  margin-left: 4.3vw;
+}
+
+.site-title ::after {
+  background-color: transparent;
+}
+
+
 
 
 /* li a::after { /* red block thing 
