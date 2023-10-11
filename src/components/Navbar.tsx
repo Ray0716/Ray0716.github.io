@@ -30,7 +30,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
     return(
         <nav className = "nav">
-            <NavLink to="/" className = "site-title">RAY TANG</NavLink>
+            <NavLink to="/" className = "site-title" >RAY TANG • 唐瑞</NavLink>
             <ul>
                 <li>
                 <NavLink to="/">Home</NavLink>

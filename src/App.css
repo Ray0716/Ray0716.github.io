@@ -29,6 +29,7 @@ body {
   font-weight: 300;
   font-size: 0.97em;
   padding-right: 1.2vw;
+  padding-left: 0.0vw;
 }
 
 .nav ul {
@@ -81,13 +82,14 @@ body {
 
 
 .site-title {
-  margin-left: 4.3vw;
+  padding-left: 4.3vw;
 }
 
-.site-title ::after {
-  background-color: transparent;
+.site-title::after{
+  display: none;
+  visibility: hidden;
+  
 }
-
 
 
 
