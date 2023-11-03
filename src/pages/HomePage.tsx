@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <>
       <Header />
-
+<p> hello world fudck this shit</p>
       
     </>
   );
