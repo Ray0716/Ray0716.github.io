@@ -1,5 +1,7 @@
 {
+  "homepage" : "https://Ray0716.github.io/",
   "name": "Ray0716.github.io",
+  "version": "0.0.1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
