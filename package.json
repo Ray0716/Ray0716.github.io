@@ -2,7 +2,7 @@
   "name": "Ray0716.github.io",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://[Ray0716].github.io/[Ray0716.github.io]",
+  "homepage": "https://Ray0716.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,8 +22,8 @@
     "styled-components": "^6.0.7"
   },
   "devDependencies": {
-    "@types/react": "^18.0.37",
-    "@types/react-dom": "^18.0.37",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",
